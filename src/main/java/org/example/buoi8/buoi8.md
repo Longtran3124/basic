@@ -1,0 +1,1 @@
+- java không hỗ trợ đã kế thừa vì nếu trong 2 class cha cùng cùng 1 phương thức giống nhau thì class con sẽ mơ hồ không biết nên nhận method từ class cha nào
