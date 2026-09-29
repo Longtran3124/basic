@@ -1,0 +1,20 @@
+- static là cái dùng chung nó sẽ set các biến và giá trị mặc định tùy thuộc vào kiểu dữ liệu mà biến được khai báo. Ví dụ
+int và boolean khi để nó là static thì int = 0, còn boolean = false
+- khi nào cần sử dụng static ? -> khi không muốn khởi tạo đối tượng nhưng vẫn muốn sử dụng hàm đấy
+- static thuộc về class không thuộc về Object
+
+
+- ArrayList sẽ sử dụng các ô nhớ liên tiếp nhau. ví dụ có 4 phần từ mỗi phần tử cần 10 ô nhớ thì cần 40 ô nhớ liên tiếp nhau vì vậy nên là nếu như sử dụng list quá nhiều phần tử thì trong bộ nhớ lúc ấy sẽ không đủ để cho nó
+- LinkedList là mỗi phần tử mất 4 ô nhưng e xin thêm 1 ô nữa để lưu địa chỉ phần tử tiếp theo vậy k cần 40 ô liên tiếp nhau và nó có thể là 50 ô các phần tử nó rời rạc k cần liên tiếp nhau
+- Khi nào cần sử dụng LinedList khi nào ArrayList:
+    + tùy theo vào từng nghiệp vụ. Ví dụ có 1 danh sách muốn truy cập theo index của phần tử thì ưu tiên ArrayList vì độ phức tạp của nó là o(1)
+
+- Map lưu trữ dữ liệu như thế nào? key-value -> key không được phép trùng nhau
+
+
+- Hàm Băm -> đầu vào nó là 1 giá trị đầu ra nó sẽ là mã
+    - Mục đích của hàm băm là để chia nhỏ dữ liệu
+
+- trong hashSet nếu hàm băm đủ tốt thì chi phí tìm kiếm của nó là o(1) còn hàm băm k tốt thì chi phí tìm kiếm là o(n) tuy nhiên java đủ thông mình để tiếp hàm băm đủ tốt cho mình nên là thông thường HashSet chi phí tìm kiếm sẽ là o(1)
+
+- sau khi HashCode ra nó sẽ ra các giá trị dùng để xác định vị trí xem nó nằm ở ô nào. Equals sẽ so sánh các giá trị

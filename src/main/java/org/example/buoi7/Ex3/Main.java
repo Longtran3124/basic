@@ -5,14 +5,17 @@ public class Main {
         Student student = new Student();
         student.inputInfo();
 
-        System.out.println("--------------------------");
-        student.showInfo();
+        Person p = new Student();
+        p.inputInfo();
 
-        System.out.println("--------------------------");
-        if (student.isScholarship()) {
-            System.out.println(student.getName() + " duoc hoc bong");
-        } else {
-            System.out.println(student.getName() + " khong duoc hoc bong");
-        }
+//        System.out.println("--------------------------");
+//        student.showInfo();
+//
+//        System.out.println("--------------------------");
+//        if (student.isScholarship()) {
+//            System.out.println(student.getName() + " duoc hoc bong");
+//        } else {
+//            System.out.println(student.getName() + " khong duoc hoc bong");
+//        }
     }
 }
